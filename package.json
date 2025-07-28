@@ -7,7 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "migrate": "pnpm exec prisma migrate dev --name",
+    "generate": "pnpm exec prisma generate",
+    "studio": "pnpm exec prisma studio"
   },
   "repository": {
     "type": "git",
