@@ -26,16 +26,16 @@
   "homepage": "https://github.com/RTJIL/express_api_template#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^17.2.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "express-validator": "^7.2.1",
     "morgan": "^1.10.1"
   },
   "devDependencies": {
-    "eslint": "^9.31.0",
+    "eslint": "^9.32.0",
     "jest": "^30.0.5",
     "prettier": "^3.6.2",
-    "prisma": "^6.12.0",
+    "prisma": "^6.13.0",
     "supertest": "^7.1.4"
   }
 }
